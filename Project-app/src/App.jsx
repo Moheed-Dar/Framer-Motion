@@ -1,12 +1,17 @@
 import React from 'react';
-import Provider from './components/Provider';
+// import Provider from './components/Provider';
 import './App.css';
-import Enter from './components/Enter';
+import Keyframe from './components/Keyframe';
+// import Enter from './components/Enter';
+// import Nav from './components/Nav';
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min";
 function App() {
   return (
-    <div className='App text-center ' >
-      <Provider />
-      <Enter />
+    <div className='App ' >
+    
+      <Keyframe/>
+      
     </div>
   )
 }

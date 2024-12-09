@@ -10,7 +10,7 @@ function Provider() {
           transition={{
             duration: 4,
           }}
-          className="w-1/12  h-full rounded bg-blue-500 "></motion.div>
+          className="w-1/12  h-full rounded bg-yellow-500 "></motion.div>
       </div>
     </div>
   )
