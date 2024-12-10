@@ -7,6 +7,7 @@ function Gusture() {
         <motion.button
          whileHover={{ scale: 2 ,color:"yellow",backgroundColor:"green", border:"none"}}
          whileTap={{ scale: 1, color:"yellow", backgroundColor:"black", border:"none" }}
+         transition={{ type:"spring",  stiffness: 300, damping: 10 }}
         className='btn btn-danger' >Submit</motion.button>
     </div>
   )
